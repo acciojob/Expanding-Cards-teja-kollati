@@ -64,14 +64,14 @@
 	flex: 10;
   }
 
-  .panel p {
+  .panel .img-text{
 	color: white;
 	margin: 10px 20px;
 	visibility: hidden;
 	opacity: 0;
   }
 
-  .panel.active p {
+  .panel.active .img-text{
 	visibility: visible;
 	opacity: 1;
 }
